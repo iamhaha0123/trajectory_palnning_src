@@ -1,0 +1,43 @@
+[0.283s] Invoking command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts -- -j8 -l8
+[0.876s] [ 15%] Built target gtest
+[0.925s] [ 30%] Built target gtest_main
+[1.140s] [ 53%] Built target rosparam_shortcuts
+[1.307s] [ 69%] Built target rosparam_shortcuts_example
+[1.309s] [100%] Built target rosparam_shortcuts_node_parameters_example
+[1.309s] [100%] Built target test_node_parameters
+[1.331s] Invoked command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts -- -j8 -l8
+[1.404s] Invoking command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts
+[1.425s] -- Install configuration: ""
+[1.466s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[1.553s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/include
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/include/rosparam_shortcuts
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[1.601s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[1.603s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[1.604s] -- Installing: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[1.604s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[1.639s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[1.639s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-noconfig.cmake
+[1.641s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[1.641s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.641s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[1.641s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[1.641s] -- Up-to-date: /home/vboxuser/ws_moveit/src/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[1.644s] Invoked command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts

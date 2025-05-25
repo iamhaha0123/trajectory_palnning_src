@@ -1,0 +1,31 @@
+[0.969s] Invoking command in '/home/vboxuser/ws_moveit/src/launch_param_builder': PYTHONPATH=/home/vboxuser/ws_moveit/src/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ws_moveit/src/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_param_builder build --build-base /home/vboxuser/ws_moveit/src/build/launch_param_builder/build install --record /home/vboxuser/ws_moveit/src/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[1.265s] Traceback (most recent call last):
+[1.265s]   File "/home/vboxuser/ws_moveit/src/launch_param_builder/setup.py", line 1, in <module>
+[1.265s]     from setuptools import setup
+[1.265s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.267s]     import setuptools.version
+[1.267s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.270s]     import pkg_resources
+[1.270s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[1.270s]     def _initialize_master_working_set():
+[1.270s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[1.271s]     f(*args, **kwargs)
+[1.271s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+[1.271s]     list(map(working_set.add_entry, sys.path))
+[1.271s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[1.271s]     for dist in find_distributions(entry, True):
+[1.271s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[1.271s]     path_item_entries = _by_version_descending(filtered)
+[1.271s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[1.271s]     return sorted(names, key=_by_version, reverse=True)
+[1.271s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version
+[1.271s]     return [try_parse(part) for part in parts]
+[1.272s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in <listcomp>
+[1.272s]     return [try_parse(part) for part in parts]
+[1.272s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2031, in try_parse
+[1.272s]     return packaging.version.Version(name)
+[1.272s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 271, in __init__
+[1.272s]     release=tuple(int(i) for i in match.group("release").split(".")),
+[1.272s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 271, in <genexpr>
+[1.272s]     release=tuple(int(i) for i in match.group("release").split(".")),
+[1.272s] KeyboardInterrupt

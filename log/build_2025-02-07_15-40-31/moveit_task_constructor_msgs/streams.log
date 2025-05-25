@@ -1,0 +1,24 @@
+[0.356s] Invoking command in '/home/vboxuser/ws_moveit/src/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/moveit_task_constructor_msgs -- -j8 -l8
+[0.496s] [  0%] Built target moveit_task_constructor_msgs__cpp
+[0.516s] [ 12%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[0.540s] [ 12%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[0.605s] [ 24%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[0.643s] [ 36%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[0.659s] [ 48%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[0.665s] [ 59%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[0.667s] [ 71%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[0.679s] [ 83%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[0.784s] [ 83%] Built target moveit_task_constructor_msgs
+[0.880s] [ 84%] Built target moveit_task_constructor_msgs__py
+[0.927s] running egg_info
+[0.928s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[0.930s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[0.930s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[0.938s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[0.938s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[1.002s] [ 95%] Built target moveit_task_constructor_msgs__rosidl_generator_py
+[1.035s] [ 95%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg
+[1.147s] [ 96%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c__pyext
+[1.153s] [ 98%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.154s] [100%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext
+[1.219s] gmake: *** [Makefile:147: all] Interrupt

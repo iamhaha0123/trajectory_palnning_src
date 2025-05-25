@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_path_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_path_planner.dir/src/simple_path_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_path_planner[0m
+[100%] Built target simple_path_planner
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/lib/cobot/simple_path_planner
+-- Set runtime path of "/home/vboxuser/ws_moveit/src/install/cobot/lib/cobot/simple_path_planner" to ""
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/warehouse_db.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/demo.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/move_group.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/moveit_rviz.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/spawn_controllers.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/setup_assistant.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/rsp.launch.py
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/moveit.rviz
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/joint_limits.yaml
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/lrmate-200id.srdf
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/lrmate-200id.ros2_control.xacro
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/moveit_controllers.yaml
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/initial_positions.yaml
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/ros2_controllers.yaml
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/kinematics.yaml
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/lrmate-200id.urdf.xacro
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/pilz_cartesian_limits.yaml
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/.setup_assistant
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/ament_index/resource_index/package_run_dependencies/cobot
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/ament_index/resource_index/parent_prefix_path/cobot
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/path.sh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/path.dsv
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.bash
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.sh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.zsh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.dsv
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/package.dsv
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/ament_index/resource_index/packages/cobot
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/cmake/cobotConfig.cmake
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/cmake/cobotConfig-version.cmake
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/package.xml

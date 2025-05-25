@@ -1,0 +1,10 @@
+[0.060s] Invoking command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts -- -j8 -l8
+[0.282s] [ 15%] Built target gtest_main
+[0.288s] [ 38%] Built target rosparam_shortcuts
+[0.301s] [ 53%] Built target gtest
+[0.375s] [ 69%] Built target rosparam_shortcuts_example
+[0.416s] [ 84%] Built target test_node_parameters
+[0.440s] [100%] Built target rosparam_shortcuts_node_parameters_example
+[0.497s] Invoked command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts -- -j8 -l8
+[0.498s] Invoking command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts
+[0.522s] Invoked command in '/home/vboxuser/ws_moveit/src/build/rosparam_shortcuts' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/rosparam_shortcuts

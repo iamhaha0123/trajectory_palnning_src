@@ -1,0 +1,67 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.5.6 (/home/vboxuser/ws_moveit/src/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/ws_moveit/src/build/cobot
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_path_planner.dir/srcipt/simple_path_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_path_planner[0m
+[100%] Built target simple_path_planner
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/lib/cobot/simple_path_planner
+-- Set runtime path of "/home/vboxuser/ws_moveit/src/install/cobot/lib/cobot/simple_path_planner" to ""
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/warehouse_db.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/demo.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/move_group.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/moveit_rviz.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/spawn_controllers.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/setup_assistant.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/launch/rsp.launch.py
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/moveit.rviz
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/joint_limits.yaml
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/lrmate-200id.srdf
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/lrmate-200id.ros2_control.xacro
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/moveit_controllers.yaml
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/initial_positions.yaml
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/ros2_controllers.yaml
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/kinematics.yaml
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/lrmate-200id.urdf.xacro
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/.setup_assistant
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/ament_index/resource_index/package_run_dependencies/cobot
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/ament_index/resource_index/parent_prefix_path/cobot
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/path.sh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/environment/path.dsv
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.bash
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.sh
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.zsh
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/local_setup.dsv
+-- Installing: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/package.dsv
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/ament_index/resource_index/packages/cobot
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/cmake/cobotConfig.cmake
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/cmake/cobotConfig-version.cmake
+-- Up-to-date: /home/vboxuser/ws_moveit/src/install/cobot/share/cobot/package.xml

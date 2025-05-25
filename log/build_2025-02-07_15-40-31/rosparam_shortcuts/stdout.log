@@ -1,0 +1,6 @@
+[ 15%] Built target gtest_main
+[ 38%] Built target rosparam_shortcuts
+[ 53%] Built target gtest
+[ 69%] Built target rosparam_shortcuts_example
+[ 84%] Built target test_node_parameters
+[100%] Built target rosparam_shortcuts_node_parameters_example

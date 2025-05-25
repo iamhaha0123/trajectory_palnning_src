@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: lrmate_200id
+    relative_path: urdf/LRMate-200iD_convex.urdf
+  srdf:
+    relative_path: config/lrmate-200id.srdf
+  package_settings:
+    author_name: fapjeo
+    author_email: will2lin0112@gmail.com
+    generated_timestamp: 1738916464
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

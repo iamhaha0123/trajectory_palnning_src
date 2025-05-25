@@ -1,0 +1,58 @@
+[0.046s] Invoking command in '/home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/IFRA_ConveyorBelt/conveyorbelt_gazebo -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo
+[3.093s] -- The C compiler identification is GNU 11.4.0
+[3.913s] -- The CXX compiler identification is GNU 11.4.0
+[3.996s] -- Detecting C compiler ABI info
+[4.336s] -- Detecting C compiler ABI info - done
+[4.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.393s] -- Detecting C compile features
+[4.418s] -- Detecting C compile features - done
+[4.436s] -- Detecting CXX compiler ABI info
+[4.848s] -- Detecting CXX compiler ABI info - done
+[4.872s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.872s] -- Detecting CXX compile features
+[4.872s] -- Detecting CXX compile features - done
+[5.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.570s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.560s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.304s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.329s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.354s] -- Added test 'lint_cmake' to check CMake code style
+[7.375s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.392s] -- Added test 'xmllint' to check XML markup files
+[7.413s] -- Configuring done
+[7.437s] -- Generating done
+[7.437s] -- Build files have been written to: /home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo
+[7.493s] Invoked command in '/home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/IFRA_ConveyorBelt/conveyorbelt_gazebo -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo
+[7.493s] Invoking command in '/home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo -- -j8 -l8
+[7.694s] Invoked command in '/home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo -- -j8 -l8
+[7.694s] Invoking command in '/home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo
+[7.733s] -- Install configuration: ""
+[7.733s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch
+[7.733s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyorbelt.launch.py
+[7.733s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models
+[7.733s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt
+[7.733s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.config
+[7.734s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes
+[7.734s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.dae
+[7.734s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.stl
+[7.739s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.sdf
+[7.741s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds
+[7.741s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyorbelt.world
+[7.742s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf
+[7.742s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box.urdf
+[7.742s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_gazebo
+[7.742s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_gazebo
+[7.743s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.sh
+[7.744s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.dsv
+[7.744s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.sh
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.dsv
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.bash
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.sh
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.zsh
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.dsv
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/ament_index/resource_index/packages/conveyorbelt_gazebo
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig.cmake
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig-version.cmake
+[7.751s] -- Installing: /home/vboxuser/ws_moveit/src/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.xml
+[7.780s] Invoked command in '/home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/home/vboxuser/ws_moveit/src/install/moveit_configs_utils:/home/vboxuser/ws_moveit/src/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/conveyorbelt_gazebo

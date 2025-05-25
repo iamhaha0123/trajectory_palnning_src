@@ -1,0 +1,89 @@
+[0.018s] Invoking command in '/home/vboxuser/ws_moveit/src/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/lib:/home/vboxuser/ws_moveit/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/vboxuser/ws_moveit/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/install/chomp_motion_planner
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.345s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.351s] -- Detecting CXX compile features - done
+[0.353s] -- Found moveit_common: 2.5.6 (/home/vboxuser/ws_moveit/src/install/moveit_common/share/moveit_common/cmake)
+[0.355s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.672s] [0mchomp_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.673s] -- Found moveit_core: 2.5.6 (/home/vboxuser/ws_moveit/src/install/moveit_core/share/moveit_core/cmake)
+[0.975s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.041s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.090s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.097s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.107s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.197s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.201s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.311s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.337s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.393s] -- Found Threads: TRUE  
+[1.451s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.454s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.481s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.599s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.667s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.918s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.935s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.935s] -- Configured cppcheck include dirs: /home/vboxuser/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[1.935s] -- Configured cppcheck exclude dirs and/or files: 
+[1.936s] -- Added test 'xmllint' to check XML markup files
+[1.938s] -- Configuring done
+[1.968s] -- Generating done
+[1.977s] -- Build files have been written to: /home/vboxuser/ws_moveit/src/build/chomp_motion_planner
+[1.991s] Invoked command in '/home/vboxuser/ws_moveit/src/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/lib:/home/vboxuser/ws_moveit/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/vboxuser/ws_moveit/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/install/chomp_motion_planner
+[1.992s] Invoking command in '/home/vboxuser/ws_moveit/src/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/lib:/home/vboxuser/ws_moveit/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/vboxuser/ws_moveit/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/chomp_motion_planner -- -j8 -l8
+[2.062s] [ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[2.067s] [ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[2.069s] [ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[2.072s] [ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[2.079s] [ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[32.592s] [100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[32.827s] [100%] Built target chomp_motion_planner
+[32.839s] Invoked command in '/home/vboxuser/ws_moveit/src/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/lib:/home/vboxuser/ws_moveit/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/vboxuser/ws_moveit/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/chomp_motion_planner -- -j8 -l8
+[32.842s] Invoking command in '/home/vboxuser/ws_moveit/src/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/lib:/home/vboxuser/ws_moveit/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/vboxuser/ws_moveit/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/chomp_motion_planner
+[32.849s] -- Install configuration: "Release"
+[32.849s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.6
+[32.850s] -- Set runtime path of "/home/vboxuser/ws_moveit/src/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.6" to ""
+[32.850s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[32.850s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include
+[32.850s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner
+[32.850s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[32.850s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[32.850s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[32.851s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[32.851s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[32.851s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[32.851s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[32.851s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[32.851s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[32.852s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[32.852s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[32.852s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[32.852s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[32.852s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[32.853s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[32.853s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[32.853s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[32.853s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[32.853s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[32.853s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[32.854s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[32.854s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[32.854s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[32.854s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[32.855s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[32.855s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[32.855s] -- Installing: /home/vboxuser/ws_moveit/src/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[32.858s] Invoked command in '/home/vboxuser/ws_moveit/src/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_moveit_config:/home/vboxuser/ws_moveit/src/install/srdfdom:/home/vboxuser/ws_moveit/src/install/moveit_resources_pr2_description:/home/vboxuser/ws_moveit/src/install/moveit_resources_panda_description:/home/vboxuser/ws_moveit/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/lib:/home/vboxuser/ws_moveit/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/ws_moveit/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/vboxuser/ws_moveit/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/chomp_motion_planner

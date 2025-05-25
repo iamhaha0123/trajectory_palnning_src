@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="lrmate-200id">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import lrmate-200id urdf file -->
+    <xacro:include filename="$(find lrmate_200id)/urdf/LRMate-200iD_convex.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="lrmate-200id.ros2_control.xacro" />
+
+
+    <xacro:lrmate-200id_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

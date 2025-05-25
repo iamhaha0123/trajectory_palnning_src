@@ -1,0 +1,4 @@
+source;share/lrmate_200id/local_setup.bash
+source;share/lrmate_200id/local_setup.dsv
+source;share/lrmate_200id/local_setup.sh
+source;share/lrmate_200id/local_setup.zsh

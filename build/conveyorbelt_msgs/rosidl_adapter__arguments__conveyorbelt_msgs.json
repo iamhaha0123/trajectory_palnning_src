@@ -1,0 +1,7 @@
+{
+  "package_name": "conveyorbelt_msgs",
+  "non_idl_tuples": [
+    "/home/vboxuser/ws_moveit/src/IFRA_ConveyorBelt/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
+    "/home/vboxuser/ws_moveit/src/IFRA_ConveyorBelt/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
+  ]
+}

@@ -1,0 +1,12 @@
+<robot name="sim_table">
+  <link name="table_link">
+    <visual>
+      <origin xyz="0 0 0.405" rpy="0 0 0"/>
+      <geometry><box size="1.115 0.60 0.81"/></geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.405" rpy="0 0 0"/>
+      <geometry><box size="1.115 0.60 0.81"/></geometry>
+    </collision>
+  </link>
+</robot>

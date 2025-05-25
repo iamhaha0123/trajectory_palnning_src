@@ -1,0 +1,4 @@
+source;share/cobot/local_setup.bash
+source;share/cobot/local_setup.dsv
+source;share/cobot/local_setup.sh
+source;share/cobot/local_setup.zsh

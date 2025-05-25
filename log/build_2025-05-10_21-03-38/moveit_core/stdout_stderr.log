@@ -1,0 +1,40 @@
+[  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  1%] [32mBuilding CXX object kinematics_base/CMakeFiles/moveit_kinematics_base.dir/src/kinematics_base.cpp.o[0m
+[  2%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/lexical_casts.cpp.o[0m
+[  2%] [32mBuilding CXX object exceptions/CMakeFiles/moveit_exceptions.dir/src/exceptions.cpp.o[0m
+[  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  3%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o[0m
+[  3%] [32mBuilding CXX object transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o[0m
+[  3%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/message_checks.cpp.o[0m
+[  4%] [32m[1mLinking CXX shared library libmoveit_exceptions.so[0m
+[  4%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  4%] Built target gtest_main
+[  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  4%] Built target moveit_exceptions
+[  4%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_smoothing_base.dir/src/smoothing_base_class.cpp.o[0m
+[  5%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/rclcpp_utils.cpp.o[0m
+[  5%] [32m[1mLinking CXX shared library libmoveit_utils.so[0m
+[  6%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[  6%] Built target gmock_main
+[  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[  7%] Built target moveit_utils
+[  8%] Built target moveit_butterworth_parameters
+[  8%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/find_internal_points.cpp.o[0m
+[  9%] [32m[1mLinking CXX shared library libmoveit_smoothing_base.so[0m
+[  9%] Built target moveit_smoothing_base
+[ 10%] [32mBuilding CXX object version/CMakeFiles/moveit_version.dir/version.cpp.o[0m
+[ 11%] [32m[1mLinking CXX executable moveit_version[0m
+[ 12%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o[0m
+[ 12%] Built target moveit_version
+[ 13%] [32m[1mLinking CXX shared library libmoveit_kinematics_base.so[0m
+[ 13%] Built target moveit_kinematics_base
+[ 14%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 14%] Built target gtest
+[ 15%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 16%] [32m[1mLinking CXX shared library libmoveit_transforms.so[0m
+[ 16%] Built target gmock
+[ 16%] Built target moveit_transforms
+gmake[2]: *** [distance_field/CMakeFiles/moveit_distance_field.dir/build.make:104: distance_field/CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:952: distance_field/CMakeFiles/moveit_distance_field.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

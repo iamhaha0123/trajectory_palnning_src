@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="lrmate-200id">
+  <link name = "world">
+    </link>
+    <joint name = "base_fixed" type = "fixed">
+      <origin
+        xyz = "0 0 0.811"
+        rpy="0 0 0" />
+      <parent link = "world"/>
+      <child link = "Base"/>
+    </joint>
+    
+  <link
+    name="Base">
+    <inertial>
+      <origin
+        xyz="-0.00682678184455439 0.0804225935378344 0.200032167938539702"
+        rpy="0 0 0" />
+      <mass
+        value="4.85328944881567" />
+      <inertia
+        ixx="0.0219866138695383"
+        ixy="0.000118504116957291"
+        ixz="0.000143030504983191"
+        iyy="0.0238292245301772"
+        iyz="3.06008744367205E-05"
+        izz="0.0228011824587363" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/base.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/base.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="link_J1">
+    <inertial>
+      <origin
+        xyz="0.0391912620989729 -0.000668128020168369 0.318431207963404"
+        rpy="0 0 0" />
+      <mass
+        value="14.3548583797231" />
+      <inertia
+        ixx="0.905961667890462"
+        ixy="-0.000630585508551185"
+        ixz="-0.132429780051495"
+        iyy="0.959094388040307"
+        iyz="-0.00083158726434221"
+        izz="0.132638947385101" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j1.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j1.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.042741"
+      rpy="0 0 0" />
+    <parent
+      link="Base" />
+    <child
+      link="link_J1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.9671"
+      upper="2.9671"
+      effort="16.6"
+      velocity="5.93" />
+  </joint>
+  <link
+    name="link_J2">
+    <inertial>
+      <origin
+        xyz="-0.00799341012139976 -0.00180144991268474 0.121256169355667"
+        rpy="0 0 0" />
+      <mass
+        value="6.36136243537974" />
+      <inertia
+        ixx="0.10665127657"
+        ixy="-0.00008067984"
+        ixz="-0.00145113538"
+        iyy="0.08706775581"
+        iyz="0.00055745507"
+        izz="0.03170155268" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j2.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j2.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0.05 0 0.28726"
+      rpy="0 0 0" />
+    <parent
+      link="link_J1" />
+    <child
+      link="link_J2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-2.5307"
+      upper="1.7453"
+      effort="16.6"
+      velocity="4.28" />
+  </joint>
+  <link
+    name="link_J3">
+    <inertial>
+      <origin
+        xyz="0.00823675547404687 0.000680366444924521 0.0176458504878265"
+        rpy="0 0 0" />
+      <mass
+        value="2.39426239864507" />
+      <inertia
+        ixx="0.00633472848658925"
+        ixy="-4.95044602058742E-05"
+        ixz="-0.000761354685999054"
+        iyy="0.00732801950250117"
+        iyz="-6.64725975554786E-05"
+        izz="0.00726042509478913" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j3.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j3.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J3"
+    type="revolute">
+    <origin
+      xyz="0 0 0.33"
+      rpy="0 0 0" />
+    <parent
+      link="link_J2" />
+    <child
+      link="link_J3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-1.2217"
+      upper="3.5779"
+      effort="16.6"
+      velocity="7.33" />
+  </joint>
+  <link
+    name="link_J4">
+    <inertial>
+      <origin
+        xyz="0.108898689131393 0.00891424227545998 0.0561499999934005"
+        rpy="0 0 0" />
+      <mass
+        value="1.5" />
+      <inertia
+        ixx="0.005"
+        ixy="0"
+        ixz="0"
+        iyy="0.005"
+        iyz="0"
+        izz="0.005" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j4.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j4.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J4"
+    type="revolute">
+    <origin
+      xyz="0.088001 0 0.035027"
+      rpy="0 0 0" />
+    <parent
+      link="link_J3" />
+    <child
+      link="link_J4" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.3161"
+      upper="3.3161"
+      effort="16.6"
+      velocity="6.63" />
+  </joint>
+  <link
+    name="link_J5">
+    <inertial>
+      <origin
+        xyz="0.00558036021420949 0.00377232979957495 -7.3630592830165E-05"
+        rpy="0 0 0" />
+      <mass
+        value="1.2" />
+      <inertia
+        ixx="0.002"
+        ixy="0"
+        ixz="0"
+        iyy="0.002"
+        iyz="0"
+        izz="0.002" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j5.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j5.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J5"
+    type="revolute">
+    <origin
+      xyz="0.2454 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link_J4" />
+    <child
+      link="link_J5" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-2.1817"
+      upper="2.1817"
+      effort="5.5"
+      velocity="4.36" />
+  </joint>
+  <link
+    name="link_J6">
+    <inertial>
+      <origin
+        xyz="0.0125090964713958 -2.92517121636138E-11 -2.78925301440261E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0932131759055648" />
+      <inertia
+        ixx="5.26544489983036E-05"
+        ixy="3.91455544631797E-14"
+        ixz="3.43660691192587E-08"
+        iyy="3.15869569838093E-05"
+        iyz="2.75690405322797E-11"
+        izz="3.16281274062994E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j6.stl" scale="0.025 0.025 0.025"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find lrmate_200id)/meshes/convex/j6.stl" scale="0.025 0.025 0.025 "/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J6"
+    type="revolute">
+    <origin
+      xyz="0.05 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link_J5" />
+    <child
+      link="link_J6" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-6.2832"
+      upper="6.2832"
+      effort="9.4"
+      velocity="12.57" />
+  </joint>
+  <gazebo reference="Base">
+      <material>Gazebo/Black</material>
+      <gravity>true</gravity>
+      <selfCollide>false</selfCollide>
+  </gazebo>
+  <gazebo reference="link_J1">
+      <material>Gazebo/Gray</material>
+      <selfCollide>false</selfCollide>
+  </gazebo>
+  <gazebo reference="link_J2">
+      <material>Gazebo/Red</material>
+      <selfCollide>false</selfCollide>
+  </gazebo>
+  <gazebo reference="link_J3">
+      <material>Gazebo/Blue</material>
+  </gazebo>
+  <gazebo reference="link_J4">
+      <material>Gazebo/Green</material>
+  </gazebo>
+  <gazebo reference="link_J5">
+      <material>Gazebo/Yellow</material>
+  </gazebo>
+  <gazebo reference="link_J6">
+      <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <!-- ros2 controller -->
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="J1">
+        <command_interface name="position">
+            <param name="min">-2.9671</param>
+            <param name="max">2.9671</param>
+        </command_interface>
+        <state_interface name="position">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+    <joint name="J2">
+        <command_interface name="position">
+            <param name="min">-2.5307</param>
+            <param name="max">1.7453</param>
+        </command_interface>
+        <state_interface name="position">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+    <joint name="J3">
+        <command_interface name="position">
+            <param name="min">-1.2217</param>
+            <param name="max">3.5779</param>
+        </command_interface>
+        <state_interface name="position">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+    <joint name="J4">
+        <command_interface name="position">
+            <param name="min">-3.3161</param>
+            <param name="max">3.3161</param>
+        </command_interface>
+        <state_interface name="position">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+    <joint name="J5">
+        <command_interface name="position">
+            <param name="min">-2.1817</param>
+            <param name="max">2.1817</param>
+        </command_interface>
+        <state_interface name="position">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+    <joint name="J6">
+        <command_interface name="position">
+            <param name="min">-6.2832</param>
+            <param name="max">6.2832</param>
+        </command_interface>
+        <state_interface name="position">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+      <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+          <parameters>$(find cobot_moveit_config)/config/ros2_controllers.yaml</parameters>
+          <robot_param_node>robot_state_publisher</robot_param_node>
+      </plugin>
+  </gazebo>
+
+</robot>
+
+

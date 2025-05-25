@@ -1,0 +1,95 @@
+[0.140s] Invoking command in '/home/vboxuser/ws_moveit/src/build/lrmate_200id': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/lrmate_200id-main -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/install/lrmate_200id
+[0.429s] -- The C compiler identification is GNU 11.4.0
+[0.648s] -- The CXX compiler identification is GNU 11.4.0
+[0.682s] -- Detecting C compiler ABI info
+[0.894s] -- Detecting C compiler ABI info - done
+[0.916s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.916s] -- Detecting C compile features
+[0.916s] -- Detecting C compile features - done
+[0.923s] -- Detecting CXX compiler ABI info
+[1.119s] -- Detecting CXX compiler ABI info - done
+[1.131s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.133s] -- Detecting CXX compile features
+[1.133s] -- Detecting CXX compile features - done
+[1.153s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.758s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.834s] -- Configuring done
+[1.836s] -- Generating done
+[1.839s] -- Build files have been written to: /home/vboxuser/ws_moveit/src/build/lrmate_200id
+[1.846s] Invoked command in '/home/vboxuser/ws_moveit/src/build/lrmate_200id' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ws_moveit/src/lrmate_200id-main -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/install/lrmate_200id
+[1.846s] Invoking command in '/home/vboxuser/ws_moveit/src/build/lrmate_200id': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/lrmate_200id -- -j8 -l8
+[1.964s] Invoked command in '/home/vboxuser/ws_moveit/src/build/lrmate_200id' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws_moveit/src/build/lrmate_200id -- -j8 -l8
+[1.965s] Invoking command in '/home/vboxuser/ws_moveit/src/build/lrmate_200id': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/lrmate_200id
+[1.982s] -- Install configuration: ""
+[1.982s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images
+[1.982s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images/origins.png
+[1.983s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images/multipleshapes.png
+[1.985s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images/visual.png
+[1.985s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images/myfirst.png
+[1.988s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images/flexible.png
+[1.991s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/images/materials.png
+[1.992s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/launch
+[1.992s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/launch/display.launch.py
+[1.993s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes
+[1.993s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res
+[1.993s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/j2.stl
+[1.996s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/j4.stl
+[2.002s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/j1.stl
+[2.006s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/j6.stl
+[2.008s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/base.stl
+[2.013s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/j5.stl
+[2.013s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/med-res/j3.stl
+[2.016s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/l_finger_tip_color.png
+[2.018s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/l_finger_tip.dae
+[2.018s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex
+[2.018s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/j2.stl
+[2.022s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/j4.stl
+[2.023s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/j1.stl
+[2.027s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/j6.stl
+[2.028s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/base.stl
+[2.029s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/j5.stl
+[2.031s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/convex/j3.stl
+[2.031s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/l_finger.dae
+[2.034s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res
+[2.034s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/j2.stl
+[2.039s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/j4.stl
+[2.040s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/j1.stl
+[2.042s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/j6.stl
+[2.046s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/base.stl
+[2.047s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/j5.stl
+[2.048s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/low-res/j3.stl
+[2.052s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/meshes/l_finger_color.png
+[2.053s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/rviz
+[2.053s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/rviz/urdf.rviz
+[2.056s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf
+[2.056s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/02-multipleshapes.urdf
+[2.056s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/07-physics.urdf
+[2.056s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/01-myfirst.urdf
+[2.056s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/lrmate-200id.gv
+[2.057s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/05-visual.urdf
+[2.059s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/03-origins.urdf
+[2.060s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/lrmate-200id.pdf
+[2.060s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/04-materials.urdf
+[2.063s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/08-macroed.urdf.xacro
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/LRMate-200iD_med-res.urdf
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/LRMate-200iD.csv
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/LRMate-200iD_low-res.urdf
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/06-flexible.urdf
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/urdf/LRMate-200iD_convex.urdf
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/ament_index/resource_index/package_run_dependencies/lrmate_200id
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/ament_index/resource_index/parent_prefix_path/lrmate_200id
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/environment/ament_prefix_path.sh
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/environment/ament_prefix_path.dsv
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/environment/path.sh
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/environment/path.dsv
+[2.071s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/local_setup.bash
+[2.072s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/local_setup.sh
+[2.075s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/local_setup.zsh
+[2.075s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/local_setup.dsv
+[2.076s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/package.dsv
+[2.082s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/ament_index/resource_index/packages/lrmate_200id
+[2.083s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/cmake/lrmate_200idConfig.cmake
+[2.083s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/cmake/lrmate_200idConfig-version.cmake
+[2.083s] -- Installing: /home/vboxuser/ws_moveit/src/install/lrmate_200id/share/lrmate_200id/package.xml
+[2.086s] Invoked command in '/home/vboxuser/ws_moveit/src/build/lrmate_200id' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ws_moveit/install/moveit_configs_utils:/home/vboxuser/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws_moveit/src/build/lrmate_200id
