@@ -8,7 +8,7 @@
     </link>
     <joint name = "base_fixed" type = "fixed">
       <origin
-        xyz = "0 0 0.811"
+        xyz = "-0.002 0.1215 0.811"
         rpy="0 0 0" />
       <parent link = "world"/>
       <child link = "Base"/>

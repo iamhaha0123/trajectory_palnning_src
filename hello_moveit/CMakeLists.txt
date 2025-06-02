@@ -13,13 +13,18 @@ find_package(moveit_visual_tools REQUIRED)
 find_package(rviz_visual_tools REQUIRED)
 find_package(shape_msgs REQUIRED)  
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(trajectory_msgs REQUIRED)
+find_package(moveit_core REQUIRED)
+find_package(moveit_ros_planning REQUIRED)
 
 
 add_executable(simple_planning src/simple_planning.cpp)
 target_include_directories(simple_planning PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_compile_features(simple_planning PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(simple_planning PUBLIC c_std_99 cxx_std_17)  
 ament_target_dependencies(
   simple_planning
   "moveit_ros_planning_interface"
@@ -28,11 +33,15 @@ ament_target_dependencies(
   "rclcpp"
 )
 
-add_executable(joint_to_ee_pose src/joint_to_ee_pose.cpp)
-ament_target_dependencies(joint_to_ee_pose
+add_executable(fk_publisher_node src/fk_publisher_node.cpp)
+ament_target_dependencies(fk_publisher_node
   "rclcpp"
+  "sensor_msgs"
+  "moveit_core"
+  "geometry_msgs"
+  "moveit_ros_planning"
   "trajectory_msgs"
-  "moveit_ros_planning_interface"
+  "Eigen3"
 )
 
 add_executable(scene_initializer src/scene_initializer.cpp)
@@ -44,11 +53,21 @@ ament_target_dependencies(scene_initializer
   "geometry_msgs"
   "geometric_shapes"
   )
-
+  
+#[[
+add_executable(rviz_control_interface src/rviz_control_interface.cpp)
+ament_target_dependencies(
+    "rviz_control_interface"
+    "rclcpp"
+    "std_msgs"
+    "visualization_msgs"
+    "interactive_markers"
+)
+]]#  
 
 install(TARGETS
   simple_planning
-  joint_to_ee_pose
+  fk_publisher_node
   scene_initializer     
   DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY launch/
