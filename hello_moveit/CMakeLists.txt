@@ -18,6 +18,8 @@ find_package(Eigen3 REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 find_package(moveit_core REQUIRED)
 find_package(moveit_ros_planning REQUIRED)
+find_package(robot_interfaces REQUIRED)
+
 
 
 add_executable(simple_planning src/simple_planning.cpp)
@@ -31,6 +33,7 @@ ament_target_dependencies(
   "rviz_visual_tools"
   "moveit_visual_tools"
   "rclcpp"
+  "robot_interfaces"
 )
 
 add_executable(fk_publisher_node src/fk_publisher_node.cpp)

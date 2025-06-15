@@ -4,6 +4,12 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit_visual_tools/moveit_visual_tools.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
+#include "robot_interfaces/msg/arm_attitude.hpp"
+
+void sub_test(const robot_interfaces::msg::ArmAttitude::SharedPtr msg, rclcpp::Logger logger) {
+  RCLCPP_INFO(logger, "Received Plug Attitude: '%f , %f , %f , %f , %f , %f '",
+    msg->x, msg->y, msg->z, msg->w, msg->p, msg->r);
+}
 
 int main(int argc, char *argv[])
 {
@@ -19,6 +25,12 @@ int main(int argc, char *argv[])
   //publisher
   auto trajectory_pub = node->create_publisher<trajectory_msgs::msg::JointTrajectory>(
   "planned_trajectory", 10);
+  auto attitude_sub = node->create_subscription<robot_interfaces::msg::ArmAttitude>(
+    "fan_attitude", 10, 
+    [logger](const robot_interfaces::msg::ArmAttitude::SharedPtr msg) {
+      sub_test(msg, logger);});
+
+      
 
   // 建立 SingleThreadedExecutor 並將節點加入
   rclcpp::executors::SingleThreadedExecutor executor;
@@ -146,5 +158,3 @@ int main(int argc, char *argv[])
   spinner.join();
   return 0;
 }
-
-

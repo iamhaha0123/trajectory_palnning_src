@@ -19,7 +19,7 @@ int main(int argc, char **argv)
   auto robot_state = std::make_shared<moveit::core::RobotState>(kinematic_model);
   robot_state->setToDefaultValues();
 
-  // 訂閱 /planned_trajectory
+  // 訂閱planned_trajectory
   auto sub = node->create_subscription<trajectory_msgs::msg::JointTrajectory>(
     "/planned_trajectory", 10,
     [=](const trajectory_msgs::msg::JointTrajectory::SharedPtr msg)
@@ -64,7 +64,23 @@ int main(int argc, char **argv)
 
         pose_pub->publish(pose_msg);
         rate.sleep();  
-        RCLCPP_INFO(node->get_logger(), "Published FK pose [%.3f s]", pt.time_from_start.sec + pt.time_from_start.nanosec * 1e-9);
+        
+        // 轉換為由拉角（RPY，單位：角度）
+
+        Eigen::Vector3d rpy = tf.rotation().eulerAngles(2, 1, 0);  // ZYX順序：Yaw, Pitch, Roll
+        double roll = rpy[2] * 180.0 / M_PI;
+        double pitch = rpy[1] * 180.0 / M_PI;
+        double yaw = rpy[0] * 180.0 / M_PI;
+
+        // 顯示 RPY 與位置資訊
+        RCLCPP_INFO(node->get_logger(),
+          "Published FK pose [%.3f s] - Pos: [%.3f, %.3f, %.3f] - RPY: [%.2f°, %.2f°, %.2f°]",
+          pt.time_from_start.sec + pt.time_from_start.nanosec * 1e-9,
+          pose_msg.pose.position.x,
+          pose_msg.pose.position.y,
+          pose_msg.pose.position.z,
+          roll, pitch, yaw
+        );
       }
     });
 
