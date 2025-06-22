@@ -45,6 +45,7 @@ ament_target_dependencies(fk_publisher_node
   "moveit_ros_planning"
   "trajectory_msgs"
   "Eigen3"
+  "robot_interfaces"
 )
 
 add_executable(scene_initializer src/scene_initializer.cpp)

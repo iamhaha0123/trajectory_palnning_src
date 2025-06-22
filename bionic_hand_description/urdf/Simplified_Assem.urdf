@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Simplified_Assem">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0498962151813821 -0.0158904369259018 -0.00116762137278734"
+        rpy="0 0 0" />
+      <mass
+        value="0.534242360000798" />
+      <inertia
+        ixx="0.00283153268058226"
+        ixy="-0.000157053033868154"
+        ixz="-9.67641870080789E-05"
+        iyy="0.00175803446232056"
+        iyz="-0.000764892151774405"
+        izz="0.00290011379264928" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bionic_hand_description/meshes/visual/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bionic_hand_description/meshes/visual/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="-0.0285034467694217 -0.0867259419775657 -0.00958237862721303"
+        rpy="0 0 0" />
+      <mass
+        value="0.534242360000798" />
+      <inertia
+        ixx="0.00186716448220367"
+        ixy="0.000360426380986313"
+        ixz="-0.000719741378483407"
+        iyy="0.00272240266069914"
+        iyz="0.000276397648022221"
+        izz="0.00290011379264929" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bionic_hand_description/meshes/visual/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bionic_hand_description/meshes/visual/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="-0.04 0 -0.01075"
+      rpy="3.1416 0 -2.0633" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

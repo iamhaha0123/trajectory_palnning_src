@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vboxuser/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/vboxuser/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/bionic_hand_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vboxuser/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/vboxuser/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/vboxuser/ws_moveit/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ws_moveit/install/bionic_hand_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

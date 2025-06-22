@@ -1,0 +1,4 @@
+source;share/bionic_hand_description/local_setup.bash
+source;share/bionic_hand_description/local_setup.dsv
+source;share/bionic_hand_description/local_setup.sh
+source;share/bionic_hand_description/local_setup.zsh

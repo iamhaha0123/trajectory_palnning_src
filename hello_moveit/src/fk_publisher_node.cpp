@@ -4,6 +4,7 @@
 #include <moveit/robot_model_loader/robot_model_loader.h>
 #include <moveit/robot_state/robot_state.h>
 #include <Eigen/Geometry>
+#include <robot_interfaces/msg/arm_attitude.hpp>
 
 int main(int argc, char **argv)
 {
@@ -11,7 +12,7 @@ int main(int argc, char **argv)
   auto node = rclcpp::Node::make_shared("fk_publisher_node");
 
   // 建立 publisher
-  auto pose_pub = node->create_publisher<geometry_msgs::msg::PoseStamped>("end_effector_pose", 10);
+  auto pose_pub = node->create_publisher<robot_interfaces::msg::ArmAttitude>("end_effector_pose", 10);
 
   // 載入機器人模型
   robot_model_loader::RobotModelLoader model_loader(node, "robot_description");
@@ -46,41 +47,33 @@ int main(int argc, char **argv)
         robot_state->update();
         auto tf = robot_state->getGlobalLinkTransform(ee_link);
 
-        // 發布 FK 結果
-        geometry_msgs::msg::PoseStamped pose_msg;
-        pose_msg.header.frame_id = "world";
-        pose_msg.header.stamp = rclcpp::Time(
-          static_cast<int64_t>(pt.time_from_start.sec) * 1000000000LL + pt.time_from_start.nanosec
-        );
-        pose_msg.pose.position.x = tf.translation().x();
-        pose_msg.pose.position.y = tf.translation().y();
-        pose_msg.pose.position.z = tf.translation().z();
+        /* 位置 */
+        const auto &p = tf.translation();
 
-        Eigen::Quaterniond q(tf.rotation());
-        pose_msg.pose.orientation.x = q.x();
-        pose_msg.pose.orientation.y = q.y();
-        pose_msg.pose.orientation.z = q.z();
-        pose_msg.pose.orientation.w = q.w();
-
-        pose_pub->publish(pose_msg);
-        rate.sleep();  
-        
         // 轉換為由拉角（RPY，單位：角度）
-
-        Eigen::Vector3d rpy = tf.rotation().eulerAngles(2, 1, 0);  // ZYX順序：Yaw, Pitch, Roll
+        Eigen::Vector3d rpy = tf.rotation().eulerAngles(2, 1, 0); 
         double roll = rpy[2] * 180.0 / M_PI;
         double pitch = rpy[1] * 180.0 / M_PI;
         double yaw = rpy[0] * 180.0 / M_PI;
 
+        /* 填入 ArmAttitude */
+        robot_interfaces::msg::ArmAttitude att;
+        att.x = p.x();
+        att.y = p.y();
+        att.z = p.z();
+
+        att.w = yaw;    
+        att.p = pitch;  
+        att.r = roll;   
+        att.t = pt.time_from_start.sec + pt.time_from_start.nanosec * 1e-9;
+
+        pose_pub->publish(att);
+        rate.sleep();  
+
         // 顯示 RPY 與位置資訊
         RCLCPP_INFO(node->get_logger(),
-          "Published FK pose [%.3f s] - Pos: [%.3f, %.3f, %.3f] - RPY: [%.2f°, %.2f°, %.2f°]",
-          pt.time_from_start.sec + pt.time_from_start.nanosec * 1e-9,
-          pose_msg.pose.position.x,
-          pose_msg.pose.position.y,
-          pose_msg.pose.position.z,
-          roll, pitch, yaw
-        );
+          "[%.3f s] Pos:[%.3f, %.3f, %.3f]  RPY:[%.2f°, %.2f°, %.2f°]",
+          att.t, att.x, att.y, att.z, roll, pitch, yaw);
       }
     });
 

@@ -1,0 +1,87 @@
+<sdf version="1.7">
+  <model name="Simplified_Assem">
+    <link name="base_link">
+      <inertial>
+        <pose>0.049896 -0.01589 -0.001168 0 -0 0</pose>
+        <mass>0.534242</mass>
+        <inertia>
+          <ixx>0.00283153</ixx>
+          <ixy>-0.000157053</ixy>
+          <ixz>-9.67642e-05</ixz>
+          <iyy>0.00175803</iyy>
+          <iyz>-0.000764892</iyz>
+          <izz>0.00290011</izz>
+        </inertia>
+      </inertial>
+      <collision name="base_link_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://bionic_hand_description/meshes/visual/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="base_link_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://bionic_hand_description/meshes/visual/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="joint1" type="revolute">
+      <pose relative_to="base_link">-0.04 0 -0.01075 -3.14159 -0 -2.0633</pose>
+      <parent>base_link</parent>
+      <child>link1</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="link1">
+      <pose relative_to="joint1">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.028503 -0.086726 -0.009582 0 -0 0</pose>
+        <mass>0.534242</mass>
+        <inertia>
+          <ixx>0.00186716</ixx>
+          <ixy>0.000360426</ixy>
+          <ixz>-0.000719741</ixz>
+          <iyy>0.0027224</iyy>
+          <iyz>0.000276398</iyz>
+          <izz>0.00290011</izz>
+        </inertia>
+      </inertial>
+      <collision name="link1_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://bionic_hand_description/meshes/visual/link1.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="link1_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://bionic_hand_description/meshes/visual/link1.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

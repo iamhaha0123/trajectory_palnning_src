@@ -1,0 +1,56 @@
+[0.014s] Invoking command in '/home/vboxuser/ws_moveit/src/bionic_hand_description/build/bionic_hand_description': /usr/bin/cmake /home/vboxuser/ws_moveit/src/bionic_hand_description -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/bionic_hand_description/install/bionic_hand_description
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.576s] Error parsing '/home/vboxuser/ws_moveit/src/bionic_hand_description/package.xml':
+[0.576s] Traceback (most recent call last):
+[0.576s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.583s]     root = dom.parseString(data)
+[0.583s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.595s]     return expatbuilder.parseString(string)
+[0.595s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.603s]     return builder.parseString(string)
+[0.603s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.603s]     parser.Parse(string, True)
+[0.603s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 5, column 33
+[0.603s] 
+[0.603s] During handling of the above exception, another exception occurred:
+[0.603s] 
+[0.603s] Traceback (most recent call last):
+[0.603s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.603s]     main()
+[0.603s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.603s]     raise e
+[0.603s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.603s]     package = parse_package_string(
+[0.603s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.604s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.604s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vboxuser/ws_moveit/src/bionic_hand_description/package.xml':
+[0.604s] The manifest contains invalid XML:
+[0.604s] not well-formed (invalid token): line 5, column 33
+[0.610s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.610s]   execute_process(/usr/bin/python3
+[0.610s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.610s]   /home/vboxuser/ws_moveit/src/bionic_hand_description/package.xml
+[0.610s]   /home/vboxuser/ws_moveit/src/bionic_hand_description/build/bionic_hand_description/ament_cmake_core/package.cmake)
+[0.610s]   returned error code 1
+[0.611s] Call Stack (most recent call first):
+[0.611s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.611s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.611s]   CMakeLists.txt:10 (ament_package)
+[0.611s] 
+[0.611s] [0m
+[0.611s] -- Configuring incomplete, errors occurred!
+[0.611s] See also "/home/vboxuser/ws_moveit/src/bionic_hand_description/build/bionic_hand_description/CMakeFiles/CMakeOutput.log".
+[0.615s] Invoked command in '/home/vboxuser/ws_moveit/src/bionic_hand_description/build/bionic_hand_description' returned '1': /usr/bin/cmake /home/vboxuser/ws_moveit/src/bionic_hand_description -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/bionic_hand_description/install/bionic_hand_description

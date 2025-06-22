@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/ws_moveit/src/bionic_hand_description/build/bionic_hand_description': /usr/bin/cmake /home/vboxuser/ws_moveit/src/bionic_hand_description -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/bionic_hand_description/install/bionic_hand_description
+Invoked command in '/home/vboxuser/ws_moveit/src/bionic_hand_description/build/bionic_hand_description' returned '1': /usr/bin/cmake /home/vboxuser/ws_moveit/src/bionic_hand_description -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_moveit/src/bionic_hand_description/install/bionic_hand_description
