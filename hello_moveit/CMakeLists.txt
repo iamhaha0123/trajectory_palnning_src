@@ -21,7 +21,7 @@ find_package(moveit_ros_planning REQUIRED)
 find_package(robot_interfaces REQUIRED)
 
 
-
+# 1) simple_planning_node
 add_executable(simple_planning src/simple_planning.cpp)
 target_include_directories(simple_planning PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -36,6 +36,7 @@ ament_target_dependencies(
   "robot_interfaces"
 )
 
+# 2) fk_publisher_node
 add_executable(fk_publisher_node src/fk_publisher_node.cpp)
 ament_target_dependencies(fk_publisher_node
   "rclcpp"
@@ -48,6 +49,7 @@ ament_target_dependencies(fk_publisher_node
   "robot_interfaces"
 )
 
+# 3) scene_initializer
 add_executable(scene_initializer src/scene_initializer.cpp)
 ament_target_dependencies(scene_initializer
   "rclcpp"
@@ -57,7 +59,15 @@ ament_target_dependencies(scene_initializer
   "geometry_msgs"
   "geometric_shapes"
   )
-  
+
+
+# 4) init_joint_state_node 
+add_executable(init_joint_state_node src/init_joint_state_node.cpp)
+ament_target_dependencies(init_joint_state_node
+  "rclcpp"
+  "sensor_msgs"
+)
+
 #[[
 add_executable(rviz_control_interface src/rviz_control_interface.cpp)
 ament_target_dependencies(
@@ -72,7 +82,8 @@ ament_target_dependencies(
 install(TARGETS
   simple_planning
   fk_publisher_node
-  scene_initializer     
+  scene_initializer
+  init_joint_state_node     
   DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY launch/
   DESTINATION share/${PROJECT_NAME}/launch
